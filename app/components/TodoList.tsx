@@ -75,7 +75,6 @@ export default function App() {
 
   return (
     <main className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h1 className="text-3xl font-bold mb-6 text-gray-800">My Todos</h1>
       
       <form onSubmit={createTodo} className="mb-6">
         <div className="flex items-center bg-gray-100 rounded-lg overflow-hidden">
